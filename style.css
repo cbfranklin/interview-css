@@ -1,10 +1,142 @@
 
 
 /* --- YOUR CODE STARTS HERE --- */
+.challenge{
+  border:1px solid #cfcfcf;
+  height:620px;
+  width:357px;
+  overflow:hidden;
+  position:relative;
+  /*resets from inherited .column styles*/
+  text-align:left;
+    color:#2b2b2b;
+}
+.challenge header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:44px;
+  background-color:#fafafa;
+  border-bottom:1px solid #ededed;
+  display:flex;
+  box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.2);
+}
+.challenge header .header-button-back{
+  text-align:left;
+  color:#333;
+  width:20px;
+  padding:5px 10px;
+}
+.challenge header .header-button-back .icon{
+  font-size:32px;
+}
+.challenge header .header-button-reload{
+  text-align:right;
+  font-size:24px;
+  line-height:40px;
+  color:#333;
+  width:20px;
+  padding:0 15px;
+}
+.challenge header .header-title{
+  font-weight:bold;
+  flex-grow:1;
+  line-height:45px;
+  text-align:center;
+}
+.challenge nav{
+  position:absolute;
+  top:45px;
+  height:30px;
+  padding:10px;
+}
+.challenge nav .nav-brand-avatar{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  float:left;
+}
+.challenge nav .nav-brand-meta{
+  float:left;
+  color:#333;
+  margin-left:10px;
+}
+.challenge nav .nav-brand-name{
+  font-weight:bold;
+  font-size:14px;
+  line-height:16px;
+}
+.challenge nav .nav-brand-location{
+  text-transform: uppercase;
+  font-size:12px;
+  line-height:16px;
+}
+.challenge nav .nav-brand-location .icon{
+  font-size:12px;
+}
 
+.challenge article{
+  position:absolute;
+  top:95px;
+  height:480px;
+  overflow-y:scroll;
+  font-size:14px;
+}
+.challenge article .article-featured-image{
+  width:100%;
+  height:auto;
+}
+.challenge article .article-meta{
+  padding:0 10px;
+}
+.challenge article .article-meta-likes{
+  font-weight:bold;
+  line-height:30px;
+}
+.challenge article .article-meta-comments{
+  line-height:18px;
+  padding-bottom:30px;
+  font-size:14px;
+}
+.challenge article .article-actions{
+  display:flex;
+  padding:5px;
+  font-size:16px;
+}
+.challenge article .article-actions .icon{
+  padding:5px;
+  font-size:24px;
+}
+.challenge article .article-actions-left{
+  justify-content: flex-start;
+}
+.challenge article .article-actions-right{
+  justify-content: flex-end;
+}
 
+.challenge footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:50px;
+  background-color:#fafafa;
+  border-top:1px solid #ededed;
+  display:flex;
+  padding:0 15px 0 15px;
+  box-shadow: 0px -5px 10px -5px rgba(0,0,0,0.1);
+  display:flex;
+}
 
-
-
+.challenge footer .icon{
+  flex-grow: 1;
+  color:#555;
+  font-size:24px;
+  padding:5px;
+  line-height:36px;
+}
+.challenge footer .icon.fa-search{
+  color:#333;
+}
 
 /* --- YOUR CODE ENDS HERE --- */
